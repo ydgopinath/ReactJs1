@@ -12,7 +12,7 @@ import ReactDOM from 'react-dom';
 // }
 
 /*
---Functional or StateLess Components because it doesn't contain their own state
+//Functional or StateLess Components because it doesn't contain their own state
 class Day2 extends React.Component {  
     render() {  
        return (  
@@ -45,7 +45,7 @@ class Day2 extends React.Component {
  */
 
  /*
- --Class or StateFull Components because it  contain their own state
+ //Class or StateFull Components because it  contain their own state
 class Day2 extends React.Component {
     constructor() {
         super();
@@ -88,4 +88,5 @@ class List extends React.Component {
     }
 }
 */
+
 export default Day2;
